@@ -25,7 +25,7 @@ def create_custom_hn(links, subtext):
 URL = "https://news.ycombinator.com/?p=1"
 
 results = []
-pages_to_scrape = 3
+pages_to_scrape = 4
 results_length = 0
 
 for page in range(1, pages_to_scrape):
